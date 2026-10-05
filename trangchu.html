@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nhom 13</title>
+    <link rel="stylesheet" href="trangchu.css" />
+  </head>
+  <body>
+    <div class="background" aria-label="Căn phòng">
+      <button
+        class="room-hotspot safe"
+        type="button"
+        aria-label="Két sắt"
+        data-label="Chi tiêu"
+        onclick="window.location.href = 'chitieu.html'"
+      ></button>
+      <button
+        class="room-hotspot desk"
+        type="button"
+        aria-label="Bàn học"
+        data-label="Học tập"
+        onclick="window.location.href = 'hoctap.html'"
+      ></button>
+      <button
+        class="room-hotspot television"
+        type="button"
+        aria-label="Tivi"
+        data-label="Tổng quan"
+        onclick="window.location.href = 'tongquan.html'"
+      ></button>
+      <button
+        class="room-hotspot calendar"
+        type="button"
+        aria-label="Lịch"
+        data-label="Deadline"
+        onclick="window.location.href = 'deadline.html'"
+      ></button>
+    </div>
+
+    <div class="card">
+      <h1 id="loiChaoAdmin">Phòng của</h1>
+      <button type="button" onclick="doiTen()">Đổi tên</button>
+    </div>
+
+    <script src="apptrangchu.js"></script>
+  </body>
+</html>

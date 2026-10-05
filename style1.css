@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/brdau.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login {
+  width: 350px;
+  padding: 35px;
+
+  background: rgba(10, 25, 50, 0.8);
+
+  border-radius: 15px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+  text-align: center;
+  color: white;
+}
+
+/* Tiêu đề */
+.login h2 {
+  margin-bottom: 25px;
+}
+/* Ô nhập */
+.login input {
+  width: 100%;
+  padding: 12px;
+
+  margin-bottom: 15px;
+
+  border: none;
+  border-radius: 8px;
+
+  outline: none;
+
+  box-sizing: border-box;
+}
+.login button {
+  width: 100%;
+  padding: 12px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #87e8d2;
+  color: #111;
+
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+/* Khi di chuột vào nút */
+.login button:hover {
+  background: #5dd8be;
+}
+#thongBaoLoi {
+  color: rgb(235, 10, 10);
+  font-size: 18px;
+  text-align: center;
+  display: none;
+}
